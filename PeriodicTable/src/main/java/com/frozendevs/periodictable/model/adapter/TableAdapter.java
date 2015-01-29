@@ -158,7 +158,8 @@ public class TableAdapter extends DynamicAdapter<TableItem> {
                 R.color.category_other_metals_bg,
                 R.color.category_transition_metals_bg,
                 R.color.category_lanthanides_bg,
-                R.color.category_actinides_bg,
+               R.color.category_actinides_bg,
+//                R.id.margin,
                 R.color.category_unknown_bg
         }[item.getCategory()]);
     }

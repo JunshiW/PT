@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/margin"
     android:layout_width="@dimen/table_item_size"
     android:layout_height="@dimen/table_item_size"
+    android:color="#ff99cc"
+    android:layout_margin="@dimen/table_item_layout_margin"
     android:gravity="center"
     android:padding="5dp"
     android:textSize="12sp"
