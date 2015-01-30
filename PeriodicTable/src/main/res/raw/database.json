@@ -102,7 +102,7 @@
     },
     {
         "appearance": "Colorless gas, exhibiting a red-orange glow when placed in a high-voltage electric field",
-        "atomicRadius": "",
+        "atomicRadius": "31 pm",
         "bandGap": "",
         "block": "s",
         "boilingPoint": "4.222 K / −268.928 °C / −452.070 °F",
@@ -974,7 +974,7 @@
     },
     {
         "appearance": "Gas: colorless\nLiquid: pale blue",
-        "atomicRadius": "",
+        "atomicRadius": "48 pm",
         "bandGap": "",
         "block": "p",
         "boilingPoint": "90.188 K / −182.962 °C / −297.332 °F",
@@ -1117,7 +1117,7 @@
     },
     {
         "appearance": "Gas: very pale yellow\nLiquid: bright yellow\nSolid: alpha is opaque, beta is transparent",
-        "atomicRadius": "",
+        "atomicRadius": "42 pm",
         "bandGap": "",
         "block": "p",
         "boilingPoint": "85.03 K / −188.11 °C / −306.60 °F",
@@ -1302,7 +1302,7 @@
     },
     {
         "appearance": "Colorless gas exhibiting an orange-red glow when placed in a high voltage electric field",
-        "atomicRadius": "",
+        "atomicRadius": "38 pm",
         "bandGap": "",
         "block": "p",
         "boilingPoint": "27.104 K / −246.046 °C / −410.883 °F",

@@ -11,6 +11,9 @@ import android.widget.TextView;
 import com.frozendevs.periodictable.R;
 import com.frozendevs.periodictable.model.TableItem;
 
+import android.graphics.Paint;
+import android.graphics.drawable.GradientDrawable;
+
 public class TableAdapter extends DynamicAdapter<TableItem> {
 
     private static enum ViewType {
@@ -44,6 +47,7 @@ public class TableAdapter extends DynamicAdapter<TableItem> {
                 }
 
                 convertView.setBackgroundColor(getBackgroundColor(position));
+
 
                 switch (position) {
                     case 4:
@@ -148,6 +152,7 @@ public class TableAdapter extends DynamicAdapter<TableItem> {
     }
 
     public int getBackgroundColor(TableItem item) {
+
         return mContext.getResources().getColor(new int[]{
                 R.color.category_diatomic_nonmetals_bg,
                 R.color.category_noble_gases_bg,
@@ -159,7 +164,6 @@ public class TableAdapter extends DynamicAdapter<TableItem> {
                 R.color.category_transition_metals_bg,
                 R.color.category_lanthanides_bg,
                R.color.category_actinides_bg,
-//                R.id.margin,
                 R.color.category_unknown_bg
         }[item.getCategory()]);
     }

@@ -14,7 +14,7 @@
         android:layout_toLeftOf="@id/element_symbol"
         android:layout_toStartOf="@id/element_symbol"
         android:text="@string/property_atom_symbol"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="14sp" />
 
     <TextView
@@ -28,7 +28,7 @@
         android:layout_toRightOf="@id/element_symbol"
         android:gravity="end"
         android:text="@string/property_atomic_number_symbol"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="14sp" />
 
     <TextView
@@ -40,7 +40,7 @@
         android:layout_alignParentRight="true"
         android:gravity="end|bottom"
         android:text="@string/property_relative_atomic_mass_symbol"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="14sp" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:gravity="center_vertical"
         android:singleLine="true"
         android:text="@string/property_name"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="12sp" />
 
 </RelativeLayout>
